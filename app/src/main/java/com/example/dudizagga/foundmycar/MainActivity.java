@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         SharedPreferences userPref = getSharedPreferences("users", 0);
-        String yossi = userPref.getString("userName", "יוסי כהן");
+        String yossi = userPref.getString("userName", "יוסי לוי");
         String kindd = userPref.getString("carKind", "הונדה");
         String num = userPref.getString("carNum", "11-222-33");
 
