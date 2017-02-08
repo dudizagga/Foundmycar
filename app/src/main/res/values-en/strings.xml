@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Found my car</string>
+    <string name="car_kind" translatable="false">Honda</string>
+    <string name="car_number2" translatable="false">car number</string>
+    <string name="change_car_num">change the car number</string>
+    <string name="change_kind" translatable="false">change the car type</string>
+    <string name="change_name" translatable="false">change the user name</string>
+    <string name="default_name" translatable="false">yossi cohen</string>
+    <string name="kind" translatable="false">car type</string>
+    <string name="location" translatable="false">location</string>
+    <string name="maps" translatable="false">maps</string>
+    <string name="massege_location_button_update" translatable="false">your location is updated...</string>
+    <string name="my_location" translatable="false">location map</string>
+    <string name="name" translatable="false">full name</string>
+    <string name="new_location" translatable="false">new location</string>
+    <string name="new_user" translatable="false">new user</string>
+    <string name="parking_maps" translatable="false">parking maps</string>
+    <string name="require_permission" translatable="false">please approve the permission for the GPS component will find your location.</string>
+    <string name="require_to_enter_map" translatable="false">please press on the map for watching your location on maps.</string>
+    <string name="save_data" translatable="false">save</string>
+    <string name="saved_location" translatable="false">your location saved successfully!!!</string>
+    <string name="search_parking" translatable="false">search for nearby parking</string>
+    <string name="settings" translatable="false">settings</string>
+    <string name="title_first_layout" translatable="false">use a map</string>
+    <string name="title_require_permission" translatable="false">require permission!</string>
+    <string name="toast_massege_permission" translatable="false">if the gps doesn\'t activate. please turn ths GPS on.</string>
+    <string name="welcome" translatable="false">welcome</string>
+    <string name="save_new_location" translatable="false">save your new location</string>
+</resources>

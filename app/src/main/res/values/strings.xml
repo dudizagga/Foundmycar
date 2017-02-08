@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Found my car</string>
+    <string name="welcome" translatable="false">ברוכים הבאים</string>
+    <string name="title_first_layout" translatable="false">מפות לבחירה</string>
+    <string name="name" translatable="false"> שם מלא</string>
+    <string name="default_name" translatable="false">יוסי כהן</string>
+    <string name="car_number">11-222-33</string>
+    <string name="car_number2" translatable="false">מספר רכב</string>
+    <string name="location" translatable="false">מיקום</string>
+    <string name="GPSlocation">32456464</string>
+    <string name="new_user" translatable="false">משתמש חדש</string>
+    <string name="my_location" translatable="false">מפת מיקום</string>
+    <string name="parking_maps" translatable="false">מפת חניונים</string>
+    <string name="kind" translatable="false">סוג הרכב</string>
+    <string name="car_kind" translatable="false">הונדה</string>
+    <string name="massege_location_button_update" translatable="false">מיקומך מתעדכן..</string>
+    <string name="maps" translatable="false">מפות</string>
+    <string name="settings" translatable="false">הגדרות</string>
+    <string name="change_name" translatable="false">שנה שם משתמש</string>
+    <string name="change_kind" translatable="false">שנה את סוג הרכב</string>
+    <string name="change_car_num" translatable="false">שנה את מספר הרכב</string>
+    <string name="save_data" translatable="false">שמור</string>
+    <string name="saved_location" translatable="false">מיקומך נשמר בהצלחה!!</string>
+    <string name="new_location" translatable="false">מיקום חדש</string>
+    <string name="search_parking" translatable="false">חיפוש חניון קרוב</string>
+    <string name="save_new_location" translatable="false">שמור מיקום חדש</string>
+
+    <string name="google_maps_key_instructions" templateMergeStrategy="replace"><!--
+    TODO: Before you run your application, you need a Google Maps API key.
+    To get one, follow this link, follow the directions and press "Create" at the end:
+https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=17:8A:66:F5:C7:FF:50:E3:77:FB:79:8A:79:3F:30:43:FC:D6:CE:61%3Bteamtreehouse.com.iamhere
+    You can also add your credentials to an existing key, using this line:
+    17:8A:66:F5:C7:FF:50:E3:77:FB:79:8A:79:3F:30:43:FC:D6:CE:61;teamtreehouse.com.iamhere
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    --></string>
+    <string name="google_maps_key" templateMergeStrategy="preserve">AIzaSyBpWdQPBGBjEOwQSkGHYLr9gbEqjaCD64c</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

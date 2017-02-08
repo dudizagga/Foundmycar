@@ -1,0 +1,35 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/frag"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:onClick="saveLoc"
+            android:id="@+id/save"
+            android:layout_height="70dp"
+            style="@style/button_fb"
+            android:text="@string/save_new_location"
+            android:layout_margin="15dp"
+            android:layout_gravity="center"
+            android:layout_weight="0.29"
+            android:layout_width="120dp" />
+
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map2"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_marginTop="37dp"
+        android:layout_below="@+id/location"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
