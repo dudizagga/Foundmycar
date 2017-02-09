@@ -56,7 +56,7 @@ public class Maps extends AppCompatActivity implements OnMapReadyCallback, com.g
     Location myLocation = new Location(GPS_PROVIDER);
     GoogleApiClient mGoogleApiClient;
     LocationRequest mLocationRequest;
-
+    LatLng latLng;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -73,6 +73,7 @@ public class Maps extends AppCompatActivity implements OnMapReadyCallback, com.g
                 .addApi(LocationServices.API)
                 .addConnectionCallbacks(this)
                 .addOnConnectionFailedListener(this).build();
+        latLng = new LatLng(myLocation.getLatitude(), myLocation.getLongitude());
 
     }
 
@@ -106,7 +107,7 @@ public class Maps extends AppCompatActivity implements OnMapReadyCallback, com.g
                 MainActivity.med.start();
                 break;
             case R.id.parking:
-                startActivity(new Intent(Maps.this, ParkingMaps.class));
+                startActivity(new Intent(Maps.this, ParkingMap.class));
                 MainActivity.med.start();
         }
 
@@ -135,7 +136,6 @@ public class Maps extends AppCompatActivity implements OnMapReadyCallback, com.g
             return;
         }
         mMap.setMyLocationEnabled(true);
-        LatLng latLng = new LatLng(myLocation.getLatitude(), myLocation.getLongitude());
         googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 16));
 
     }
