@@ -18,5 +18,5 @@
         android:title="@string/settings"/>
     <item android:id="@+id/the_team"
         android:orderInCategory="2"
-        android:title="חברי הצוות"></item>
+        android:title="@string/the_team"></item>
 </menu>

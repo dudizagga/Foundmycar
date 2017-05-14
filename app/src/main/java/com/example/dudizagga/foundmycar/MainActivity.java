@@ -20,6 +20,8 @@ public class MainActivity extends AppCompatActivity {
     TextView Uname, kind, number, location;
     public static MediaPlayer med;
     WebView webView;
+    public static double longitude,latitude;
+
     /*  String gps=MapsActivity.myLocation!=null?
               MapsActivity.myLocation.getLatitude()+","+MapsActivity.myLocation.getLongitude():
               "0.00,0.00";*/
@@ -58,8 +60,8 @@ public class MainActivity extends AppCompatActivity {
         kind.setText(kindd);
         number.setText(num);
 
-        double longitude = (double) userPref.getFloat("longitude", (float) 34.849647);
-        double latitude = (double) userPref.getFloat("latitude", (float) 32.032133);
+         longitude = (double) userPref.getFloat("longitude", (float) 34.849647);
+         latitude = (double) userPref.getFloat("latitude", (float) 32.032133);
 
         location.setText(latitude + "," + longitude);
 
@@ -80,6 +82,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, Settings.class));
                 med.start();
                 break;
+            case R.id.the_team:
+                startActivity(new Intent(MainActivity.this,TheTeamPage.class));
+                med.start();
+                break;
+
 
 
         }

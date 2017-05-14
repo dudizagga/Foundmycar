@@ -47,5 +47,14 @@
 
 
     </style>
+    <style name="name">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+
+    </style>
+    <style name="details">
+        <item name="android:textStyle">italic</item>
+        <item name="android:textSize">15dp</item>
+    </style>
 
 </resources>

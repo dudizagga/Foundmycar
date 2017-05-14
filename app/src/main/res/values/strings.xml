@@ -22,8 +22,15 @@
     <string name="save_data" translatable="false">שמור</string>
     <string name="saved_location" translatable="false">מיקומך נשמר בהצלחה!!</string>
     <string name="new_location" translatable="false">מיקום חדש</string>
+    <string name="the_team" translatable="false">חברי הצוות</string>
     <string name="search_parking" translatable="false">חיפוש חניון קרוב</string>
     <string name="save_new_location" translatable="false">שמור מיקום חדש</string>
+    <string name="nadia" translatable="false">נדיה מילסטיין</string>
+    <string name="nadia_details" translatable="false">" \n מהנדסת תמיכה בOffice 365|\nידע מעמיק בExchange Online  ואינטגרציה עם מערכות\n ארגוניות מקומיות (Hybrid).  שליטה טובה בכל סוגי\n המיגרציות ל- Exchange online-\n . Cutover, Stage, Imap, Hybridהיכרות טובה עם\n שרתי Exchange 2007, 2010, 2013.\nניהול משתמשים ושירותים Portal office 365,\n DirSync, AD FS, TMG. הכרות טובה עם מערכות \noffice 365  השונות – Share point online, One drive for business\n, Skype for business. היכרות והבנה טובה של \nכתיבת פקודות וסקריפטים POWERSELL, \nהכירות מלאה עם המודולים של Exchange online ו AD azure.\nהשכלה | מל\"א - לימודי BA תואר ראשון \nבמערכות מידע ניהוליות - ביה\"ס דן ללימודי הייטק\n"</string>
+    <string name="karlina" translatable="false">קרלינה יקטרינה</string>
+    <string name="karlina_details" translatable="false">\nבודקת איכות תוכנה QA ורפרנט תמיכת אינטרנט.\n\nמתודולוגיית, טכניקות וסוגי בדיקות, ידע בשפת SQL  ,\n ידע מעשי בתוכנת הבדיקות HP QUALITY CENTER, \nכתיבת מסמכי אפיון ובדיקות–   STP, STD, STR\nניסיון בפרויקט בדיקות בסביבת WEB ,\nISTQB, SELENIUM, HTML JAVASCRIPT.\n\n\nהשכלה | מל\"א -\n לימודי BA תואר ראשון במערכות מידע ניהוליות - ביה\"ס דן ללימודי הייטק\n</string>
+    <string name="nataly">נטלי יופה</string>
+    <string name="nataly_details" translatable="false">\nשיננית במכבי שירותי בריאות |\n\n• מסירה אבנית, כתמים, ורובד משיניים.\n• איטום ופלואורידים כדי לסייע בהגנה על השיניים.\n•מצלמת ומפתחת צילומי רנטגן דנטליים.\n• עושה הערכה של בריאות הפה של \nהמטופלים ומדווחת על הממצאים לרופאי שיניים.\n• מכינה תוכניות טיפול.\n• מחנכת את המטופלים על טכניקות היגיינת הפה, \nכגון כיצד לצחצח ולהשתמש בחוט דנטלי כהלכה.\n\nהשכלה | מל\"א – המרכז ללימודים אקדמיים\n</string>
 
     <string name="google_maps_key_instructions" templateMergeStrategy="replace"><!--
     TODO: Before you run your application, you need a Google Maps API key.

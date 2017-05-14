@@ -12,7 +12,7 @@
     <string name="maps" translatable="false">maps</string>
     <string name="massege_location_button_update" translatable="false">your location is updated...</string>
     <string name="my_location" translatable="false">location map</string>
-    <string name="name" translatable="false">full name</string>
+    <string name="name" translatable="false">name</string>
     <string name="new_location" translatable="false">new location</string>
     <string name="new_user" translatable="false">new user</string>
     <string name="parking_maps" translatable="false">parking maps</string>
@@ -27,4 +27,11 @@
     <string name="toast_massege_permission" translatable="false">if the gps doesn\'t activate. please turn ths GPS on.</string>
     <string name="welcome" translatable="false">welcome</string>
     <string name="save_new_location" translatable="false">save your new location</string>
+    <string name="the_team" translatable="false">theTeam</string>
+    <string name="karlina" translatable="false">Karlina Yekaterina</string>
+    <string name="nadia" translatable="false">Nadia Milstein</string>
+    <string name="nataly">"Nataly Yoffe "</string>
+    <string name="nataly_details">\nDental hygienist at Maccabi Healthcare| \n\n•\tRemove tartar, stains, and plaque from teeth.\n•\tApply sealants and fluorides to help protect teeth.\n•\tTake and develop dental x rays.\n•\tAssess patients’ oral health and report findings to dentists.\n•\tDocument patient care and treatment plans.\n•\tEducate patients about oral hygiene techniques\n, such as how to brush and floss correctly.\n\nEducation| MLA – Dan Academic Center\n</string>
+    <string name="karlina_details" translatable="false">\nQA\n\nKnowledge of testing methodology and test types\n\nDeep acquaintance of the QA and its role in the business.\n Acquaintance of work processes in the company\n \nWorking knowledge in the testing software QUALITY CENTER\n\nExperience in writing specification documents and tests - STP, STD, STR\nProject experience testing in a web environment.\nknowledge in SQL,ISTQB.\n\nEducation| MLA – Dan Academic Center\n\n\n</string>
+    <string name="nadia_details" translatable="false">\nOffice 365 Support Engineer|\nExchange Online and Integration with local\n organization systems (Hybrid).   \nExperience with IMAP, Cutover, Stage to Exchange Online; and with Exchange servers 2007, 2010, 2013.\nManagement of users and servers TMG, AD FS,\n DirSync, Portal office 365.\n Good knowledge of various systems of Office 365 – \nShare point online, One drive for business, Skype for business. \n\n Experienced in writing commands and scripts POWERSELL. \nExperience with all modules of Exchange Online and AD azure.\nEducation| BA studies in Management Information \nSystems at Dan HiTech Academy Center\n</string>
 </resources>
